@@ -1,0 +1,10 @@
+# CUDA 11.8
+pip install torch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 --index-url https://download.pytorch.org/whl/cu118
+
+# torchtext
+pip install torchtext==0.17.2
+
+# tokenizer
+pip install -U pip setuptools wheel
+pip install -U 'spacy[cuda11x]'
+python -m spacy download ko_core_news_sm
